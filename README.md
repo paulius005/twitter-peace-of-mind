@@ -1,4 +1,4 @@
-Download [here](https://github.com/paulius005/twitter-peace-of-mind/raw/master/twitter-piece-of-mind-0.0.1.zip)
+Download [here](https://github.com/paulius005/twitter-peace-of-mind/raw/main/twitter-piece-of-mind-0.0.1.zip)
 
 # Install Instructions
 
