@@ -1,3 +1,5 @@
+If Elon tweets about Tesla or SpaceX you'll see the tweet, otherwise you'll see "I am working on SpaceX & Tesla and it's going great!"
+
 Download [here](https://github.com/paulius005/twitter-peace-of-mind/raw/main/twitter-piece-of-mind-0.0.1.zip)
 
 # Install Instructions
