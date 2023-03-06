@@ -1,14 +1,17 @@
 import { printLine } from './modules/print';
 import $ from 'jquery';
 
-console.log('Content script works!');
-console.log('Must reload extension for modifications to take effect.');
-
-printLine("Using the 'printLine' function from the Print Module");
-
 addEventListener("scroll", (event) => { });
 
 onscroll = (event) => {
+  bringPeaceOfMind();
+};
+
+setTimeout(() => {
+  bringPeaceOfMind();
+}, 2000);
+
+function bringPeaceOfMind() {
   const greatElonTweet = 'I am working on SpaceX & Tesla and it\'s going great!';
   const articleArr = document.querySelectorAll('article');
   const elonTweets = $('article').find('span:contains("@elonmusk")').toArray();
@@ -60,7 +63,4 @@ onscroll = (event) => {
     });
 
   }
-  console.log(articleArr);
-};
-
-console.log('paulius content');
+}
