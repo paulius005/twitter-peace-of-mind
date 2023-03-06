@@ -1,11 +1,11 @@
 {
-  "name": "chrome-extension-boilerplate-react",
-  "version": "5.0.4",
-  "description": "A chrome extension boilerplate built with React 18, Webpack 5, and Webpack Dev Server 4",
+  "name": "twitter-piece-of-mind",
+  "version": "0.0.1",
+  "description": "Rockets & Cars",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lxieyang/chrome-extension-boilerplate-react.git"
+    "url": "https://github.com/paulius005/twitter-peace-of-mind"
   },
   "scripts": {
     "build": "node utils/build.js",
