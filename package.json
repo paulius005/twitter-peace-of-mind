@@ -1,6 +1,6 @@
 {
   "name": "twitter-piece-of-mind",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Rockets & Cars",
   "license": "MIT",
   "repository": {
@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "jquery": "^3.6.3",
+    "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
