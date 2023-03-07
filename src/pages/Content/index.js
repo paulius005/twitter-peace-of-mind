@@ -13,7 +13,7 @@ setTimeout(() => {
 
 function bringPeaceOfMind() {
   const greatElonTweet = 'I am working on SpaceX & Tesla and it\'s going great!';
-  const elonTweets = $('article').find('span:contains("@elonmusk")').toArray();
+  const elonTweets = $('article').find('a[href$="/elonmusk"] div span:contains("@elonmusk")').toArray();
 
   if (elonTweets.length) {
 
