@@ -47,15 +47,15 @@ function bringPeaceOfMind() {
         return;
       }
 
-      if (!(textSpanText.includes('tesla') ||
-        textSpanText.includes('rockets') ||
-        textSpanText.includes('spacex') ||
-        textSpanText.includes('launch') ||
-        textSpanText.includes('giga') ||
-        textSpanText.includes('liftoff') ||
-        textSpanText.includes('starship') ||
-        textSpanText.includes('dragon') ||
-        textSpanText.includes('energy')
+      if (!(textSpanText.toLowerCase().includes('tesla') ||
+        textSpanText.toLowerCase().includes('rockets') ||
+        textSpanText.toLowerCase().includes('spacex') ||
+        textSpanText.toLowerCase().includes('launch') ||
+        textSpanText.toLowerCase().includes('giga') ||
+        textSpanText.toLowerCase().includes('liftoff') ||
+        textSpanText.toLowerCase().includes('starship') ||
+        textSpanText.toLowerCase().includes('dragon') ||
+        textSpanText.toLowerCase().includes('energy')
       )) {
         // remove emojis at the beginning
         while (elonTweetEl.closest('article').firstChild.firstChild.children[1].children[1].children[1].firstChild.firstChild.toString().includes('Image')) {
